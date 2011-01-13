@@ -1,0 +1,27 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+  <a href="{{ root_path }}">Home</a> 
+  &rsaquo; Features</div>
+{% endblock %}
+
+{% block title %}Features{% endblock %}
+
+{% block content %}
+
+<div id="content-main">
+{% for feature in features %}
+  <h1>{{ feature.name }}</h1>
+  <div class="module" style='margin-top: 10px; margin-bottom: 30px;'>
+  {% for scenario in feature.scenarios %}
+    <h2>{{ scenario.name }}</h2>
+    {% for step in scenario.steps %}
+      <p>{{ step.sentence }}</p>
+    {% endfor %}
+  {% endfor %}
+  </div>
+{% endfor %}
+</div>
+
+{% endblock %}
