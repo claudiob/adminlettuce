@@ -4,7 +4,7 @@ setup(
     name = "adminlettuce",
     packages = ["adminlettuce"],
     package_data={'adminlettuce': ['templates/*.html']},
-    version = "0.0.4",
+    version = "0.0.5",
     description = "Displays lettuce features as documentation in Django admin.",
     author = "Red Interactive",
     author_email = "geeks@ff0000.com",

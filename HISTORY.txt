@@ -1,2 +1,3 @@
+v0.0.5  2001.01.14  Added a link in the admin interface to the list of features 
 v0.0.4  2001.01.13  Added templates to packages dir
 v0.0.1  2001.01.13  Created the package
