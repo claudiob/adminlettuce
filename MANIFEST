@@ -1,4 +1,4 @@
-README.txt
+README.markdown
 setup.py
 adminlettuce/__init__.py
 adminlettuce/models.py
